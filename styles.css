@@ -51,6 +51,27 @@ p {
     line-height: 1.75;
 }
 
+button {
+    background: #FFE600;
+    padding: 0.75em 1.5em;
+    font-size: 0.85rem;
+    border: none;
+    font-weight: 600;
+    border-radius: 3px;
+    transition: 100ms all linear;
+}
+
+button:hover {
+    cursor: pointer;
+    background: black;
+    color: #FFE600;
+    transition: 100ms all linear;
+}
+
+button:focus {
+    outline: none;
+}
+
 .container {
     max-width: 1200px;
     width: 100%;
@@ -72,12 +93,8 @@ p {
     text-align: right;
 }
 
-.svg-blob {
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    transform: translate(10%, 40%);
-    opacity: 0.75;
+.download-link {
+    margin-top: 2.5em;
 }
 
 .celebration-gif {
