@@ -1,3 +1,3 @@
 Starter HTML, CSS, and JS files. 
 
-[Demo](http://our-new-project.marguerite.io)
+[Demo](https://margueriteroth.github.io/our-project-starter/)
